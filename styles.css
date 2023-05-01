@@ -1,9 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Styling for header */
+header{
+	text-align: center;
+}
+/* Styling for body */
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 2em;
+	padding: 2em;
 }
+/* Styling for nav menu */
+nav {
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	font-size: x-large;
+	padding: 1em;
+}
+
 /* Styling for links */
 a {
 	color: #231933
@@ -20,7 +36,9 @@ img {
 	border: thin;
 	max-width: 100%;
 	height: auto;
-	margin: 30px
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	
 }
 
@@ -53,8 +71,11 @@ img {
 }
 
 #submit {
-	display: inline-block;
+	display: block;
 	width: auto;
-	margin: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 5px;
 }
